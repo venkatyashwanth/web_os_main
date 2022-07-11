@@ -14,7 +14,7 @@ const taskbar = document.querySelector("#taskbar");
 close(os_window);
 
 /*Creating apps*/
-create_app("File Manager","/assets/images/apps/pngegg.png", "file-manager");
+create_app("File Manager","../assets/images/apps/pngegg.png", "file-manager");
 create_app("Recycle bin","/assets/images/apps/recycle.png", "recycle-bin");
 create_app("Settings","/assets/images/apps/settings.png", "settings");
 create_app("System Info","/assets/images/apps/sys_info.png","system-info");
